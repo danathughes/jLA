@@ -23,7 +23,7 @@ public class CholeskyFactorization
    * 
    * @return		The lower diagonal matrix of this factorization
    *
-   * @since	1.0.1
+   * @since	1.0.0
    */
    public static Matrix factor(Matrix A)
    {
