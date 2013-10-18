@@ -33,6 +33,8 @@ public class NotLowerTriangularException extends Exception
    /**
     * Creates a new exception with a cause.
     *
+    * @param	cause	The cause of this if it was due to another exception
+    *
     * @since	1.0.0 
     */
    public NotLowerTriangularException(Throwable cause)
@@ -45,6 +47,7 @@ public class NotLowerTriangularException extends Exception
     * Creates a new exception with a message and a cause.
     *
     * @param	message	A reason for throwing this exception
+    * @param	cause	The cause of this if it was due to another exception
     *
     * @since	1.0.0 
     */
