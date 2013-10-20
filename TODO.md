@@ -12,3 +12,5 @@ TODO
 *  Write the README.md file
 
 *  Work on autotesting
+
+*  Implement an inversion algorithm in the Matrix class

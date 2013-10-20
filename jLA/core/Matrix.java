@@ -382,6 +382,22 @@ public class Matrix
 
 
    /**
+    * Determines the inverse of this matrix
+    *
+    * @return		The inverse of this matrix
+    *
+    * @since	1.0.0
+    */
+   public Matrix invert()
+   {
+      Matrix inversion = new Matrix(this.rows, this.cols);
+
+      // Still need to implement
+
+      return inversion;
+   }
+
+   /**
     * Creates a submatrix omitting the given row and column
     * <p>
     * This method is used to help calculate the determinant of the matrix.  The
